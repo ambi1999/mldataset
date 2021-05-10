@@ -1,0 +1,13 @@
+The original dataset has been taken from UCI and link below.
+
+This dataset contains information collected by the U.S Census Service concerning housing in the area of Boston Mass. 
+It was obtained from the StatLib archive (http://lib.stat.cmu.edu/datasets/boston).
+
+Dr Ambikesh Jayal has made following changes in this dataset for teaching purpose.
+
+1. Removed all missing values.
+2. Added three categorical columns as follows
+greenarea: randomly generated values
+internetfacility: randomly generated values
+investmentrisk: this is low if MDEV<=10, is medium if (MDEV>20 and MDEV <=30), is high if MDEV > 30
+
